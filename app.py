@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///sqlite.db"
 db = SQLAlchemy(app)
 
 
-class Projects(db.Model):
+class Project(db.Model):
     id = Column(Integer, primary_key=True)
     title = Column(Text, unique=False)
     date = Column(Text, unique=False)
@@ -17,7 +17,7 @@ class Projects(db.Model):
 
 db.create_all()
 api_manager = APIManager(app, flask_sqlalchemy_db=db)
-api_manager.create_api(Projects, methods=['GET'])
+api_manager.create_api(Project, methods=['GET'])
 
 
 @app.route('/')
