@@ -44,3 +44,11 @@ header {
 .infobox .links li+li:before {
   content: '|';
 }
+
+.row.section h2 {
+    margin: 0;
+}
+
+.row.section {
+    margin-top: 2em;
+}
