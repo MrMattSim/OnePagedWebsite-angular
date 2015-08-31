@@ -49,16 +49,16 @@ footer {
   content: '|';
 }
 
-.row.section .col-md-9 {
+section .col-md-9 {
     border-left: 1px solid #bbb;
 }
 
-.row.section h2,
-.row.section h3 {
+section h2,
+section h3 {
     margin: 0;
 }
 
-.row.section {
+section {
     margin-top: 2em;
 }
 
