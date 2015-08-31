@@ -2,8 +2,12 @@ header {
     width: 100%;
     height: 200px;
     display: table;
-
     background-color: #3498db;
+}
+
+footer {
+    padding: 1em 0;
+    text-align: center;
 }
 
 .infobox {
