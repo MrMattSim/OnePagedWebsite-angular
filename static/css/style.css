@@ -45,10 +45,28 @@ header {
   content: '|';
 }
 
-.row.section h2 {
+.row.section h2,
+.row.section h3 {
     margin: 0;
 }
 
 .row.section {
     margin-top: 2em;
+}
+
+.project {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    border-left: 1px solid #bbb;
+}
+
+.project .meta .title,
+.project .meta .date {
+    display: inline;
+}
+
+.project .meta span {
+    margin-left: 10px;
+    font-size: 13pt;
+    color: #828282;
 }
