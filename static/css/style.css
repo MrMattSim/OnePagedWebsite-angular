@@ -40,3 +40,7 @@ header {
     margin: 0 8px;
     color: white;
 }
+
+.infobox .links li+li:before {
+  content: '|';
+}
