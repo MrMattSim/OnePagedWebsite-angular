@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    height: 200px;
+    display: table;
+
+    background-color: #3498db;
+}
+
+.infobox {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.infobox .content {
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: auto;
+    width: 370px;
+    padding: 1.15em 1.15em 0.4em;
+}
+
+.infobox h1 {
+    margin: 0;
+}
+
+.infobox .subtitle {
+    font-size: 1.4em;
+    font-variant: small-caps;
+    margin-bottom: 0.5em;
+}
+
+.infobox .links li {
+    display: inline;
+}
+
+.infobox .links li a {
+    display: inline-block;
+    padding: 0 8px;
+    color: white;
+}
