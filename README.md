@@ -11,3 +11,8 @@ Set up
 3. Change the links and "Your Name" instances in `static/index.html` as appropriate
 
 By default, there is only a "Project" model, but the project can easily be extended to support other models if desired.
+
+Screenshot
+----------
+
+![](screenshot.png)
