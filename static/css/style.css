@@ -58,8 +58,12 @@ section h3 {
     margin: 0;
 }
 
-section {
-    margin: 3em;
+section:first-of-type {
+    margin-top: 3em;
+}
+
+section:not(:last-of-type) {
+    margin-bottom: 3em;
 }
 
 p:last-of-type {
