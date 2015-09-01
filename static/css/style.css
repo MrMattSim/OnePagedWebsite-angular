@@ -50,8 +50,8 @@ footer {
     color: white;
 }
 
-.infobox .links li+li:before {
-  content: '|';
+.infobox .links li + li:before {
+    content: '|';
 }
 
 @media screen and (min-width: 992px) {

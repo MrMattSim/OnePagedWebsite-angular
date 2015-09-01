@@ -15,6 +15,7 @@ class Project(db.Model):
     date = Column(Text, unique=False)
     description = Column(Text, unique=False)
 
+
 db.create_all()
 api_manager = APIManager(app, flask_sqlalchemy_db=db)
 api_manager.create_api(Project, methods=['GET'])
